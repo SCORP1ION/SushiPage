@@ -22,5 +22,5 @@ A modern and responsive landing page for a sushi restaurant built with Next.js a
 ## Getting Started
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev

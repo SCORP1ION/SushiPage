@@ -1,0 +1,101 @@
+.heroContainer{
+    min-height: 100vh;
+    background-image: url(/img/sushiBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overLay{
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 075)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container{
+    max-width: 850px;
+    text-align: center;
+}
+
+.tradition{
+    color: var(--yellow-gold);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 6px;
+    margin-bottom: 1rem;
+}
+
+.authentic{
+    color: white;
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.littleDescription{
+    color: var(--text-gray);
+    font-size: 1.25rem;
+    line-height: 1.8;
+    max-width: 650px;
+    margin: 0 auto 3rem auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.primaryButton{
+    background-color: var(--yellow-gold);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.primaryButton:hover{
+    transform: scale(1.09)
+}
+
+.secondaryButton{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.secondaryButton:hover{
+    background: white;
+    color: black;
+    transform: scale(1.09);
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    margin: 4rem auto;
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--yellow-gold),
+        transparent
+    );
+}

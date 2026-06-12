@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+    min-height: 80px;
+    position: sticky; /* con position sticky sigue al usurio cuando use el scroll */
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nameRestaurant {
+    color: var(--yellow-gold);
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.Reserve {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.containerReserve {
+    background: var(--yellow-primary);
+    border-radius: 10px;
+    padding: 0.8rem 1.5rem;
+    transition: all .3s ease;
+}
+
+.containerReserve:hover{
+    transform: translateY(-2px);
+}
+
+.navContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.navA {
+    font-size: 1.1rem;
+    transition: all .3s ease;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.navA::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: var(--yellow-gold);
+    transition: width .3s ease;
+}
+
+.navA:hover::after {
+    width: 100%;
+}

@@ -1,6 +1,7 @@
 import Header from "./Section/Header/page";
 import Hero from "./Section/Hero/page";
 import Sushis from "./Section/sushi/page";
+import Collectios from "./Section/collectios/page";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Sushis/>
+      <Collectios/>
     </>
   );
 }

@@ -3,6 +3,7 @@ import Hero from "./Section/Hero/page";
 import Sushis from "./Section/sushi/page";
 import Collectios from "./Section/collectios/page";
 import Philosophy from "./Section/philosophy/page"
+import Location from "./Section/location/page";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Sushis/>
       <Collectios/>
       <Philosophy/>
+      <Location/>
     </>
   );
 }

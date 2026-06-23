@@ -4,6 +4,7 @@ import Sushis from "./Section/sushi/page";
 import Collectios from "./Section/collectios/page";
 import Philosophy from "./Section/philosophy/page"
 import Location from "./Section/location/page";
+import Footer from "./Section/footer/page"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Collectios/>
       <Philosophy/>
       <Location/>
+      <Footer/>
     </>
   );
 }

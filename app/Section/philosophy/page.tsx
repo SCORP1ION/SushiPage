@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function philosophy() {
     return (
         <>
-            <section className={styles.sectionContainer}>
+            <section className={styles.sectionContainer} id="about">
                 <div className={styles.content}>
                     <div className={styles.leftSide}>
                         <h3 className={styles.philosophy}>

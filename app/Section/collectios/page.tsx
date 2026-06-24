@@ -26,7 +26,7 @@ const Menu = [
 export default function collectios() {
     return (
         <>
-            <section className={styles.sectionContainer}>
+            <section className={styles.sectionContainer} id='galery'>
                 <h3 className={styles.collections}>COLLECTIONS</h3>
                 <div className={styles.divContainer}>
                     <h1 className={styles.explore}>Explore the menu</h1>

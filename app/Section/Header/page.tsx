@@ -15,11 +15,11 @@ export default function Header() {
                     {menuOpen ? "X" : "☰"}
                 </button>
                 <nav className={`${styles.navContainer} ${menuOpen ? styles.active : "" }`}>
-                    <a href="" className={styles.navA}>Home</a>
-                    <a href="" className={styles.navA}>Menu</a>
-                    <a href="" className={styles.navA}>About</a>
-                    <a href="" className={styles.navA}>Galery</a>
-                    <a href="" className={styles.navA}>Contact</a>
+                    <a href="#home" className={styles.navA}>Home</a>
+                    <a href="#menu" className={styles.navA}>Menu</a>
+                    <a href="#about" className={styles.navA}>About</a>
+                    <a href="#galery" className={styles.navA}>Galery</a>
+                    <a href="#contact" className={styles.navA}>Contact</a>
                 </nav>
                 <div className={styles.containerReserve}>
                     <a href="" className={styles.Reserve}>Reserve table</a>

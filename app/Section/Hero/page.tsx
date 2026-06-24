@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 export default function Hero() {
   return (
     <>
-      <section className={styles.heroContainer}>
+      <section className={styles.heroContainer} id="home">
         <div className={styles.overLay}>
           <div className={styles.container}>
             <h3 className={styles.tradition}>TRADITION MEETS ARTISTRY</h3>

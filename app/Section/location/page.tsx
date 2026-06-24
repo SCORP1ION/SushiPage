@@ -4,7 +4,7 @@ import styles from "./page.module.css"
 export default function location() {
     return (
         <>
-            <section className={styles.sectionContainer}>
+            <section className={styles.sectionContainer} id="contact">
                 <div className={styles.containerSecondary}>
 
                     <div className={styles.texts}>

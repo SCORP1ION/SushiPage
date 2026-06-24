@@ -65,3 +65,50 @@
 .navA:hover::after {
     width: 100%;
 }
+
+.menuBottom{
+    display: none;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+    .container{
+        padding: 1rem 1.5rem;
+    }
+
+    .menuBottom{
+        display: block;
+        z-index: 1001;
+    }
+
+    .navContainer{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: rgba(0,0,0,.95);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 3rem;
+        transition: left .3s ease;
+    }
+
+    .active{
+        left: 0;
+    }
+
+    .containerReserve{
+        display: none;
+    }
+
+    .navA{
+        font-size: 1.3rem;
+    }
+}
